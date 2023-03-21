@@ -5,8 +5,8 @@
   "main": "app.js",
   "type": "module",
   "scripts": {
-    "start": "node --experimental-modules --es-module-specifier-resolution=node app.js",
-    "build": "webpack --config=Scripts/config/webpack.prod.js",
+    "build": "webpack --progress --colors",
+    "start": "webpack-dev-server --progress --colors"
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
